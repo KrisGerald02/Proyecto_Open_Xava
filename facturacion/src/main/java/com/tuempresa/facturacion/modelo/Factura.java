@@ -11,7 +11,7 @@ import org.openxava.annotations.*;
 import org.openxava.calculators.*;
 import lombok.*;
 
-
+//@@View y @ReferenceView para obtener una interfaz de usuario más compacta.
 @Entity @Getter @Setter
 //con esto cambio ui de anyo numero y fecha de enum a horizontal tipo abajo a derechaS
 @View(members = "anyo,numero,fecha;"+"cliente;"+"detalles;"+"observaciones")
